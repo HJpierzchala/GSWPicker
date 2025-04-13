@@ -23,7 +23,7 @@ Designed for large-scale, research-grade seismo-geodetic analysis, it uses async
   - **Numerical**: `.csv` files
   - **Visual**: Plots of station noise, S-wave arrivals, and shaking duration
 
-GSW Picker is ideal for large GNSS datasets and enables efficient, scalable seismic analysis.
+GSW Picker is  user-friendly providing a GUI interface and ideal for large GNSS datasets and enables efficient, scalable seismic analysis.
 
 ---
 
@@ -76,8 +76,7 @@ To confirm that the installation was successful:
 
 If the files match, your installation is successful!
 
-![GSW GUI](imgs/test_gui.png)
-<img src="imgs/test_gui.png" alt="GWS GUI" width="800" style="display:block; margin-top: 10px; margin-bottom: 10px;">
+#![GSW GUI](imgs/test_gui.png)
 
 ### Important Parameters
 
@@ -93,3 +92,16 @@ Recommended: **3 seconds** for high-rate (1–20 Hz) GNSS velocity data.
 These parameters significantly impact performance and detection sensitivity. For high-rate GNSS velocity datasets, the recommended values (5s window, 3s shaking length) offer a good starting point.
 
 ---
+
+
+### License
+
+Copyright (c) 2023 - 2025, [Your Organization or Name]
+
+Licensed under the [Apache Software License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+---
+
+### References
+
+[1] A.M. Lapadat et al. (2025), *Title of Paper/Article*, to be updated.
