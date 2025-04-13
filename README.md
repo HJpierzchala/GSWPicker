@@ -77,7 +77,7 @@ To confirm that the installation was successful:
 If the files match, your installation is successful!
 
 ![GSW GUI](imgs/test_gui.png)
-
+<img src="imgs/test_gui.png" alt="GWS GUI" width="800" style="display:block; margin-top: 10px; margin-bottom: 10px;">
 
 ### Important Parameters
 
