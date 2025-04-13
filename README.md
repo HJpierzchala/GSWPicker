@@ -47,8 +47,6 @@ You can install **GSW Picker** in one of two ways:
 !!! warning
     Be sure to use **Python 3.11**, and match the exact package versions specified in `requirements.txt`.
 
----
-
 ### Running the Software
 
 To launch the GUI:
@@ -66,8 +64,7 @@ To launch the GUI:
     ```
     python GSWPicker_GUI.py
      ```
----
-
+    
 ### Verifying Installation
 To confirm that the installation was successful:
 
@@ -79,9 +76,8 @@ To confirm that the installation was successful:
 
 If the files match, your installation is successful!
 
-![Test GUI](../imgs/test_gui.png)
+![GSW GUI](imgs/test_gui.png)
 
----
 
 ### Important Parameters
 
@@ -95,3 +91,5 @@ Recommended: **5 seconds** for high-rate (1–20 Hz) GNSS velocity data.
 Recommended: **3 seconds** for high-rate (1–20 Hz) GNSS velocity data.
 
 These parameters significantly impact performance and detection sensitivity. For high-rate GNSS velocity datasets, the recommended values (5s window, 3s shaking length) offer a good starting point.
+
+---
