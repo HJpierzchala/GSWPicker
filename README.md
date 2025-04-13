@@ -23,7 +23,7 @@ Designed for large-scale, research-grade seismo-geodetic analysis, it uses async
   - **Numerical**: `.csv` files
   - **Visual**: Plots of station noise, S-wave arrivals, and shaking duration
 
-GSW Picker is  user-friendly providing a GUI interface and ideal for large GNSS datasets and enables efficient, scalable seismic analysis.
+GSW Picker offers a user-friendly GUI and is ideal for handling large GNSS datasets, enabling efficient and scalable seismic analysis.
 
 ---
 
@@ -76,7 +76,7 @@ To confirm that the installation was successful:
 
 If the files match, your installation is successful!
 
-#![GSW GUI](imgs/test_gui.png)
+![GSW GUI](imgs/test_gui.png)
 
 ### Important Parameters
 
