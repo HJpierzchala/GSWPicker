@@ -3,10 +3,12 @@
 
 ---
 
+
 ## Description
 
 **GSW Picker** is an open-source Python-based tool for analyzing high-rate (≥1 Hz) GNSS velocity data to extract S-wave arrival times and ground shaking parameters (amplitude and duration).  
 Designed for large-scale, research-grade seismo-geodetic analysis, it uses asynchronous parallel processing (`concurrent.futures`) for fast and scalable performance.
+
 
 ### Key Features
 
@@ -27,25 +29,59 @@ GSW Picker offers a user-friendly GUI and is ideal for handling large GNSS datas
 
 ---
 
+
 ## Installation & Running
 
 ### Installation
 
 First, clone the repository to your local machine:
+```bash
 git clone git@github.com:HJpierzchala/GSWPicker.git
-
+```
 You can install **GSW Picker** in one of two ways:
 
-1. **Automatic Installation** (macOS and Linux)  
-   Run the provided `install.sh` script to create a conda environment (`gsw_env`) and install all required dependencies from `requirements.txt`.
 
-2. **Manual Installation**  
-   Create a new conda environment with **Python 3.11**, then install the packages listed in `requirements.txt`.
+1. **Automatic Installation** (Recommended)
 
-    A detailed step-by-step setup guide will be provided by Hubert.
+    Use the `install.sh` script for a guided setup.
+    
+    - Detects your operating system (Windows/macOS/Linux)
+    - Creates a Conda environment named `gsw_env` with Python 3.11
+    - Installs all required dependencies from `requirements.txt`
+    
+    Run the script from the root directory:
+    
+    ```bash
+    bash install.sh
+    ```
 
-!!! warning
-    Be sure to use **Python 3.11**, and match the exact package versions specified in `requirements.txt`.
+
+2. **Manual Installation**
+    Use this option if the automatic method fails.
+    
+    - Create conda environment
+    ```bash
+    conda create -n gsw_env python = 3.11
+    ```
+    - Activate the environment
+    ```bash
+    conda activate gsw_env
+    ```
+    - Install pip (if not already installed)
+    ```bash
+    conda install pip
+    ```
+    - Install required packages:
+    ```bash
+    pip install -r requirements.txt
+    ```
+  
+  !!! warning
+      Be sure to use **Python 3.11**, and match the exact package versions specified in `requirements.txt`.
+  </div>
+    
+[More details can be found in the User Manual.](GSWPicker_user_manual.pdf)
+
 
 ### Running the Software
 
@@ -64,6 +100,7 @@ To launch the GUI:
     ```
     python GSWPicker_GUI.py
      ```
+
     
 ### Verifying Installation
 To confirm that the installation was successful:
@@ -77,6 +114,7 @@ To confirm that the installation was successful:
 If the files match, your installation is successful!
 
 ![GSW GUI](imgs/test_gui.png)
+
 
 ### Important Parameters
 
@@ -101,6 +139,7 @@ Copyright (c) 2023 - 2025, [Your Organization or Name]
 Licensed under the [Apache Software License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ---
+
 
 ### References
 
