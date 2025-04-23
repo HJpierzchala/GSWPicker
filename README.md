@@ -1,13 +1,3 @@
-## Version
-**Release v1.0.1 – April 13, 2025**
-
-This software was tested and verified on the following system:
-
-- **Operating Systems**: Windows 11 Home, Version 10.0.22631  
-
----
-
-
 ## Description
 
 **GSW Picker** is an open-source Python-based tool for analyzing high-rate (≥1 Hz) GNSS velocity data to extract S-wave arrival times and ground shaking parameters (amplitude and duration).  
@@ -135,6 +125,14 @@ These parameters significantly impact performance and detection sensitivity. For
 
 ---
 
+### Version
+**Release v1.0.1 – April 13, 2025**
+
+This software was tested and verified on the following system:
+
+- **Operating Systems**: Windows 11 Home, Version 10.0.22631  
+
+---
 
 ### License
 
