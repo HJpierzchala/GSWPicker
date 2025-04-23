@@ -130,7 +130,8 @@ These parameters significantly impact performance and detection sensitivity. For
 
 This software was tested and verified on the following system:
 
-- **Operating Systems**: Windows 11 Home, Version 10.0.22631  
+- **Operating Systems**: Windows 11 Home, Version 10.0.22631
+                         MacOs Sequoia, Version 15.4.1, Apple M3 Pro   
 
 ---
 
