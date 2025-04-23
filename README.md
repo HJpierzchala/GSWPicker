@@ -1,5 +1,9 @@
 ## Version
-**Release v1.0 – April 13, 2025**
+**Release v1.0.1 – April 13, 2025**
+
+This software was tested and verified on the following system:
+
+- **Operating Systems**: Windows 11 Home, Version 10.0.22631  
 
 ---
 
@@ -71,9 +75,9 @@ You can install **GSW Picker** in one of two ways:
     ```bash
     conda install pip
     ```
-    - Install required packages:
+    - Install required packages via pyproject.toml:
     ```bash
-    pip install -r requirements.txt
+    pip install .
     ```
   
   !!! warning
@@ -136,7 +140,7 @@ These parameters significantly impact performance and detection sensitivity. For
 
 Copyright (c) 2023 - 2025, [Your Organization or Name]
 
-Licensed under the [Apache Software License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+Licensed under the [].
 
 ---
 
