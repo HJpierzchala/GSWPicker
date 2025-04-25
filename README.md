@@ -51,6 +51,7 @@ You can install **GSW Picker** in one of two ways:
 
 
 2. **Manual Installation**
+   
     Use this option if the automatic method fails.
     
     - Create conda environment
@@ -70,10 +71,17 @@ You can install **GSW Picker** in one of two ways:
     pip install .
     ```
   
-  !!! warning
-      Be sure to use **Python 3.11**, and match the exact package versions specified in `requirements.txt`.
+  !!! Warning: Be sure to use **Python 3.11**, and match the exact package versions specified in `requirements.txt`.
   </div>
-    
+
+3. **For Anaconda Navigator Users prefering a GUI setup**
+   
+    - Open Anaconda Navigator & Go to "Environments" tab
+    - Select Import Env
+    - Select Requirements file (requirements.txt) from ./config/requirements.txt
+    - Specify an env name (s.a gsw_env)
+    - Click Import
+
 [More details can be found in the User Manual.](GSWPicker_user_manual.pdf)
 
 
