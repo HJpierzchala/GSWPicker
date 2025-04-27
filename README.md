@@ -56,7 +56,7 @@ You can install **GSW Picker** in one of two ways:
     
     - Create conda environment
     ```bash
-    conda create -n gsw_env python = 3.11
+    conda create -n gsw_env python=3.11
     ```
     - Activate the environment
     ```bash
