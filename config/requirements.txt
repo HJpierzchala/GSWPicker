@@ -1,0 +1,10 @@
+astropy==7.0.0
+matplotlib==3.10.1
+numpy==2.2.4
+pandas==2.2.3
+PyQt5==5.15.11
+PyQt5_sip==12.15.0
+Requests==2.32.3
+rich==14.0.0
+scikit_learn==1.6.1
+scipy==1.15.2

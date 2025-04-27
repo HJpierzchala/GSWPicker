@@ -1,0 +1,58 @@
+
+    ============================================================
+                          GSWPicker
+                 GNSS-based S-wave Detection
+    ============================================================
+    Program run: 04/24/2025, 17:38:56
+    ------------------------------------------------------------
+    
+CALCULATION_MODE: 1D
+
+MODE: MAD
+
+wcase: None
+
+vadase_path: /Users/hubertpierzchala/Desktop/Studia/gathers_hack/ALEX/GSWPicker/vel_data/test_varout
+
+DATE_STR: 2016-10-30
+
+GPS_DATE: [17.]
+
+GPS_WEEK: [1921]
+
+COMPUTE_NOISE: True
+
+shaking_length: 3
+
+window_size: 5
+
+INCLUDE_STATIONS: False
+
+result_csv: /Users/hubertpierzchala/Desktop/Studia/gathers_hack/ALEX/GSWPicker/results/test/1D/reports
+
+result_figures: /Users/hubertpierzchala/Desktop/Studia/gathers_hack/ALEX/GSWPicker/results/test/1D/figures
+
+storage_option: All S-wave arrivals
+
+PROJECT_ID: test
+
+eq_time: 2016-10-30 06:40:18.000
+
+swa: True
+
+zswa: True
+
+time_cutoff: 2
+
+bandpass_cutoffs: False
+
+lowcut: 0.1
+
+substr: 0.1
+
+logdir: /Users/hubertpierzchala/Desktop/Studia/gathers_hack/ALEX/GSWPicker/results/test/1D/logs
+
+time: gsow
+
+leap_sec: 17
+

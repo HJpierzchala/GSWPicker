@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gswpicker"
+version = "1.0.0"
+requires-python = ">=3.11"
+dependencies = [
+	"astropy==7.0.0",
+	"matplotlib==3.10.1",
+	"numpy==2.2.4",
+	"pandas==2.2.3",
+	"PyQt5==5.15.11",
+	"PyQt5_sip==12.15.0",
+	"Requests==2.32.3",
+	"rich==14.0.0",
+	"scikit_learn==1.6.1",
+	"scipy==1.15.2",
+]
+description = "Xarray extension for Synthetic Aperture Radar (SAR) data"
+readme = "README.md"
+authors = [
+    {name = "Hubert Pierzchala", email = "h.pierzchala1@gmail.com"},
+    {name = "Alex Lapadat", email = "amlapadat.tudelft@gmail.com"},
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-cov",
+    "pycodestyle",
+    "ruff",
+    "pre-commit",
+]
+docs = [
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocs-jupyter",
+    "mkdocstrings[python]",
+    "mkdocs-gen-files",
+]
+demo = [
+    "jupyterlab",
+    "matplotlib",
+]
+
+[tool.setuptools]
+packages = ["modules"]

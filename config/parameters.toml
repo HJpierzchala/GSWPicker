@@ -1,0 +1,41 @@
+### HARDCODED PARAMETERS GSWPICKER ###
+
+[PICKING]
+# goes into find_swave.py line 96, 108, 109
+rareevent_t = 5 
+# goes into find_swave.py, line 130
+shock_separation_len = 2 
+# goes into find_swave.py, line 129
+shock_separation_len_hr = 10 
+# goes into find_swave.py as an argument
+beta_weight = 0.7 
+# goes into find_swave.py as an argument
+gamma_weight = 0.3 
+# goes into  ;prepare_class.py, line 506. 523 in std_velenu; into many sigma_filter.py inputs (perhaps we need it once): in process.py as argument in sigma_filter, line 471; in pre_input.py as argument in sigma_filter, line 11; in vel_plot.py as argument in sigma_filter, line 11
+sigma_scaler = 3
+
+[SLOPE_METHOD]
+# goes into prepare_class.py line 1518, 1519, 1522, 1539, 1540, 1558, 1559, 1640, 1645, 1662, 1663, 1681, 1684
+Qyy_scaler = 0.4 
+# goes into prepare_class.py line 1891, 1944
+alpha_significance = 0.05 
+
+[UI]
+# goes in window2 line 103
+shaking_length_var = 3 
+# goes in window2 line 104
+window_size_var = 5 
+
+[PREINSPECT]
+# goes into noise_plot.py, line 321
+PSD_NFFT_freq = 5000 
+
+[TIME]
+# goes into process.py, line 788
+MJD_base_date = "1858-11-17" 
+# goes into process.py, line 634
+GPST_start = "1980-01-06T00:00:00"
+
+[CPUS]
+# goes into main_loop.py, line 224. If empty code should do what's doing now, if a value is input this should be used.
+cpu_counter = '' 
