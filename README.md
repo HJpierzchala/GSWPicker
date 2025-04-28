@@ -146,9 +146,9 @@ This software was tested and verified on the following system:
 
 ### License
 
-Copyright (c) 2023 - 2025, [Your Organization or Name]
+Copyright (c) 2025, Alex Lapadat & Hubert Pierzchała
 
-Licensed under the [].
+Licensed under the Apache 2.0.
 
 ---
 
